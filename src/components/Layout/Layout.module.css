@@ -1,0 +1,7 @@
+.Layout {
+  height: 100vh;
+}
+body {
+  background-color: rgb(24, 25, 27);
+  padding: 0 6%;
+}

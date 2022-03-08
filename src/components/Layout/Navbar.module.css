@@ -1,17 +1,13 @@
 .header {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background-color: transparent;
+  height: 25vh;
 
-  padding: 0 10%;
+  padding: 0 5%;
 }
-.logo {
-  font-size: 2rem;
-  color: maroon;
-  font-weight: bold;
-}
+
 .header ul {
   list-style: none;
   margin: 0;
@@ -20,10 +16,13 @@
   align-items: baseline;
 }
 .header a {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 1.5rem;
-  color: maroon;
+  font-size: 1rem;
+  line-height: 1.1rem;
 }
 .header li {
-  margin-left: 3rem;
+  margin: 0 1.6rem;
 }

@@ -5,26 +5,25 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Chess</div>
       <nav>
         <ul>
           <li>
-            <Link to="/">home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/events">events</Link>
+            <Link to="/events">Events</Link>
           </li>
           <li>
-            <Link to="/blog">blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to="/team">team</Link>
+            <Link to="/team">Team</Link>
           </li>
           <li>
-            <Link to="/aboutus">about us</Link>
+            <Link to="/aboutus">About Us</Link>
           </li>
-          <li>
-            <Link to="/contactus">contact us</Link>
+          <li className={classes.button}>
+            <Link to="/contactus">Contact Us</Link>
           </li>
         </ul>
       </nav>

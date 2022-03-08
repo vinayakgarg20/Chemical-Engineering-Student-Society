@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  background-color: rgb(255, 189, 89);
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.text {
+  width: 50%;
+  height: 75vh;
+}
+.collegename {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 189, 89);
+  text-decoration: none;
+  margin: 1rem;
+  margin-top: 2rem;
+  font-size: 1.5vw;
+  letter-spacing: 0;
+  line-height: 1.5rem;
+}
+.chess {
+  font-size: 4.5vw;
+  color: rgb(255, 255, 255);
+  line-height: 3rem;
+  letter-spacing: 0em;
+  margin: 1rem;
+}
+.button {
+  background-color: rgb(255, 189, 89);
+  width: 14vw;
+  height: 2.2rem;
+  margin: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button a {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(24, 25, 27);
+  text-decoration: none;
+
+  font-size: 2vw;
+}
+.image {
+  height: 58vh;
+  position: relative;
+  left: -5vw;
+  display: flex;
+  overflow: hidden;
+}
