@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 
 const ContactUs = () => {
   const submitHandler = (event) => {
@@ -6,31 +7,67 @@ const ContactUs = () => {
   };
   return (
     <div>
-      <div className="getinTouch">
-        <h3>Get in touch</h3>
-        <p></p>
-        <div></div>
-      </div>
-      <div className="Form">
+      <div className="Container">
+        
+          <div className="getinTouch">
+          <h3>Get in touch</h3>
+          <p>The department of Chemical Engineering at IITR offers a state of the art curriculum for its students at all levels to prepare them to become leaders of tomorrow who can transform the chemical industries to solve the socio-economic problems in a sustainable manner.</p>
+          <div className="Sociallinks">
+            <p>	ch.iitr.ac.in</p>
+            <p>  +91 95872 00161</p>
+            <p>   	iitr.ac.in</p>
+            <p>   Roorkee, Uttarakhand, India</p>
+            </div>
+
+          
+        
+          </div>
+        
+        <div className="Form">
         <form onSubmit={submitHandler}>
           <div className="Name">
-            <div>
+            <div className="first">
               <label htmlFor="Fname">First Name</label>
-              <input type={"text"} required id="Fname"></input>
+              <div className="search">
+                
+                  <input type={"text"} required id="Fname"></input>
+
+                
+              </div>
+              
+              
             </div>
-            <div>
+            <div className="last">
               <label htmlFor="Lname">Last Name</label>
-              <input type={"text"} required id="Lname"></input>
+              <div className="search">
+                
+                  <input type={"text"} required id="Lname"></input>
+
+                
+              </div>
+              
+              
             </div>
           </div>
           <div className="contact">
-            <div>
+            <div className="emailchess">
               <label htmlFor="email">Email</label>
-              <input type={"email"} required id="email"></input>
+              <div className="search">
+                
+                  <input type={"text"} required id="email"></input>
+                
+              
+              </div>
             </div>
-            <div>
+            <div className="contactchess">
               <label htmlFor="contact-no">Phone Number</label>
-              <input type={"text"} required id="contact-no"></input>
+              <div className="search">
+                
+                  <input type={"text"} required id="contact-no"></input>
+                
+                  
+              </div>   
+              
             </div>
           </div>
           <div className="message">
@@ -47,6 +84,11 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+        
+      </div>
+      
+      
+      
     </div>
   );
 };
