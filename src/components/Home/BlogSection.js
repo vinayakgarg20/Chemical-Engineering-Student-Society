@@ -1,7 +1,7 @@
 import React from "react";
 
 const BlogSection = () => {
-  return <div>BlogSection</div>;
+  return <div style={{ height: "100vh" }}>BlogSection</div>;
 };
 
 export default BlogSection;
