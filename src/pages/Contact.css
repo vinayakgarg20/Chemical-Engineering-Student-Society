@@ -1,124 +1,130 @@
-.Container{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(55deg, rgb(46, 3, 95), #1707eeb2);
-    
-    justify-content: space-evenly;
-    align-items: center;
+.Container {
+  display: flex;
+
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-
-.Form{
-    height: 85vh;
-    width: 50vw;
-    background: linear-gradient(45deg, rgb(2, 6, 59), #0c00ad);
-    
-    
-
-
+.Form {
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.getinTouch{
-    
-    padding: 36px;
-    display: flex;
-    
-    flex-direction: column;
-    align-items: flex-start;
-    height: 85vh;
-    width: 30vw;
-   
-    background: linear-gradient(45deg, rgb(2, 6, 59), #0c00ad);
-    border-radius: 20px;
+.getinTouch {
+  padding: 36px;
+  display: flex;
 
-    
-    
-    
-    
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 90vh;
+  width: 30vw;
+
+  background: linear-gradient(45deg, rgb(2, 6, 59), #0c00ad);
+  border-radius: 20px;
 }
 
-h3{
-        font-size: 35.6668px;
-        font-weight: 400;
-        color: rgb(239, 67, 207);
-        font-family: "YAEl45aeb7E 0",auto;
-        line-height: 49px;
-        letter-spacing: -0.03em;
-
+.getinTouch h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(239, 67, 207);
+  font-family: "YAEl45aeb7E 0", auto;
+  line-height: 49px;
 }
-p{
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    font-size: 12.0001px;
-    line-height: 14px;
-    text-align: left;
-    text-size-adjust: 80%;
-    
-    
-    
-   
+.getinTouch p {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+.sociallinks {
 }
 
-.Name, .contact, .Message{
-    margin: 36px;
-    padding: 19px;
-    display: flex;
-    
-
+.Name,
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Name,
+.contact,
+.message,
+.button {
+  margin: 1.5rem 0;
 }
 
-
-hr{
-    width: 311.168px;
-    height: 1px;
-    
-    opacity: 0.35;
+.first,
+.last,
+.contactchess,
+.emailchess,
+.message {
+  display: flex;
+  flex-direction: column;
 }
-.first ,.last, .contactchess,.emailchess{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    align-items: flex-start;
+.search {
+  display: flex;
 }
-.search{
-    margin: 6px;
-    margin-left: 0;
-    
-    padding: 19px 19px 19px 0;
-    display: flex;
-    
+.search input {
+  text-align: start;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #575758be;
+  color: #fafafa;
+  resize: none;
+  width: 23vw;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
 }
-.search input{
-    width: 311.168px;
-    height: 1px;
-    padding: 1px 103px;
-    
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #575758be;
-    color: #fafafa;
-    
+.search textarea {
+  text-align: start;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #575758be;
+  color: #fafafa;
+  resize: none;
+  margin-top: 1.5rem;
+  width: 100%;
+  font-size: 1.2rem;
 }
-.Name label, .contact label{
-    
-    margin-bottom: -5px;
-    padding-bottom: 0;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    align-items: center;
-    
-    
-
-
-    
-    
+.Name label,
+.contact label,
+.message label {
+  padding-bottom: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.contact {
+  margin-top: 3rem;
+}
+.message {
+  margin-top: 5rem;
+}
+.button {
+  color: black;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 0;
+  margin-top: 1rem;
+}
+.button:hover {
+  background-color: blue;
 }
 
-
-
+.button {
+  background-color: linear-gradient(45deg, rgb(2, 6, 59), #0c00ad);
+  color: black;
+}
